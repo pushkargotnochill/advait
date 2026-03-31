@@ -28,3 +28,6 @@ using a method called the Fullbring.
 
 result = qa(question="How does Ichigo recover his powers?", context=context_1)
 print(result['answer'])
+
+#explaination : facebook/bart-large-cnn is a pre trained model made by  meta , is effective in generating summaries of long text , for natulral language generation , it combines with models like BERT and GPT
+#explaination2 = deepset/roberta-base-squad2 is a popular NLP model that specialises in extractive question answering , The model identifies and extracts the exact span of text from a given context that answers a specific question.
